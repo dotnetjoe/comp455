@@ -1,5 +1,4 @@
 1. True or false:
-
 	- {{a, b}} ⊆ {{a, b, c}}
 	- {{a, b}, {b, a, c}} = {{b, a}, {c, c, a, b}, {a, a, b}}
 	- {a, c} ∈ {{a, b}, c, {a, c}}
