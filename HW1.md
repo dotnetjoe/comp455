@@ -1,6 +1,9 @@
 1. True or false:
+  
   a. {{a, b}} ⊆ {{a, b, c}}
+  
   b. {{a, b}, {b, a, c}} = {{b, a}, {c, c, a, b}, {a, a, b}}
+  
   c. {a, c} ∈ {{a, b}, c, {a, c}}
 2. Compute the result of these operations:
 ({a, b} ∪ {b, c}) ∩ {a, c, d}
