@@ -2,14 +2,14 @@
 
 	| x 	| y 	| δ(x,y) 	|
 	|---	|---	|:------:	|
-	| p 	| a 	| q      		|
-	| p 	| b 	| q      		|
-	| p 	| c 	| r      		|
-	| q 	| a 	| r      		|
-	| q 	| b 	| p      		|
-	| q 	| c 	| p      		|
-	| r 	| a 	| r      		|
-	| r 	| b 	| r      		|
-	| r 	| c 	| r      		|
+	| p 	| a 	| q      	|
+	| p 	| b 	| q    		|
+	| p 	| c 	| r    		|
+	| q 	| a 	| r    		|
+	| q 	| b 	| p    		|
+	| q 	| c 	| p    		|
+	| r 	| a 	| r    		|
+	| r 	| b 	| r    		|
+	| r 	| c 	| r    		|
 
 	Find a regular expression for the language recognized by this automaton.
