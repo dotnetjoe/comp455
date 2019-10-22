@@ -1,4 +1,4 @@
-## Comp 455 Assignments
+## Assignments
 ### HW1
 1. True or false:
 	- {{a, b}} ⊆ {{a, b, c}}
