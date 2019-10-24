@@ -1,10 +1,13 @@
+
 ## Assignments
 
 ### HW1
 1. True or false:
-	- {{a, b}} ⊆ {{a, b, c}}
-	- {{a, b}, {b, a, c}} = {{b, a}, {c, c, a, b}, {a, a, b}}
-	- {a, c} ∈ {{a, b}, c, {a, c}}
+	<ol type="a">
+		<li>{{a, b}} ⊆ {{a, b, c}}</li>
+		<li>{{a, b}, {b, a, c}} = {{b, a}, {c, c, a, b}, {a, a, b}}</li>
+		<li>{a, c} ∈ {{a, b}, c, {a, c}}</li>
+	</ol>
 2. Compute the result of these operations:
 	- ({a, b} ∪ {b, c}) ∩ {a, c, d}
 3. Compute the result of this composition of two relations:
@@ -22,11 +25,11 @@
 	| x 	| y 	| δ(x,y) 	|
 	|---	|---	|:------:	|
 	| p 	| a 	| q      	|
-	| p 	| b 	| q    	|
+	| p 	| b 	| q    		|
 	| p 	| c 	| r    		|
 	| q 	| a 	| r    		|
-	| q 	| b 	| p    	|
-	| q 	| c 	| p    	|
+	| q 	| b 	| p    		|
+	| q 	| c 	| p    		|
 	| r 	| a 	| r    		|
 	| r 	| b 	| r    		|
 	| r 	| c 	| r    		|
@@ -36,3 +39,14 @@
 ### HW5
 1. Construct a context-free grammar generating all the strings in the following language, and no others: 
 	- {a<sup>m</sup>b<sup>n</sup>c<sup>p</sup>d<sup>q</sup> : m ≠ n, p ≠ q}
+
+### HW6
+1. Consider the push-down automaton M = (K, Σ, Γ, ∆, s, F) where
+K = {p, q}, Σ = {a, b}, Γ = {a, b}, s = p, F = {q}, and ∆ contains the following transitions:
+<i>((p, a, ∈),(p, aa),((p, ∈, ∈),(q, ∈)),((q, b, a),(q, ∈)).</i>
+
+	<ol type="a">
+	  <li>Is the string <i>aabb</i> accepted by <i>M</i>?</li>
+	  <li>Is the string <i>ba</i> accepted by <i>M</i>?</li>
+	  <li>Give an informal description of the set of all strings accepted by <i>M</i>.</li>
+	</ol>
