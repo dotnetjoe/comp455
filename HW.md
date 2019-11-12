@@ -46,3 +46,7 @@ K = {p, q}, Σ = {a, b}, Γ = {a, b}, s = p, F = {q}, and ∆ contains the follo
 	- Is the string <i>aabb</i> accepted by <i>M</i>?
 	- Is the string <i>ba</i> accepted by <i>M</i>?
 	- Give an informal description of the set of all strings accepted by <i>M</i>.
+
+### HW7
+1. Show that the following langugae is context-free:
+	- {<i>a<sup>m</sup>b<sup>n</sup>c<sup>m</sup> : n, m</i> ≥ 0} ∪ 		{<i>c<sup>p</sup>b<sup>q</sup>a<sup>p</sup> : p, q</i> ≥ 0}
