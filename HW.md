@@ -50,3 +50,23 @@ K = {p, q}, Σ = {a, b}, Γ = {a, b}, s = p, F = {q}, and ∆ contains the follo
 ### HW7
 1. Show that the following langugae is context-free:
 	- {<i>a<sup>m</sup>b<sup>n</sup>c<sup>m</sup> : n, m</i> ≥ 0} ∪ 		{<i>c<sup>p</sup>b<sup>q</sup>a<sup>p</sup> : p, q</i> ≥ 0}
+
+### HW8
+1. Consider the Turing machine M = (K, Σ, δ, s, H) where K = {q0, q, r, s, h}, Σ = {_, >, a, b}, s = q<sub>0</sub>, H = {h}, and δ includes the following transitions:
+
+	| δ(q<sub>0</sub>, t)  | =  | (q, →) | 
+	|----------------------|----|--------| 
+	| δ(q, a)              | =  | (q, →) | 
+	| δ(q, b)              | =  | (r, ←) | 
+	| δ(q, _)              | =  | (h, _) | 
+	| δ(r, a)              | =  | (r, _) | 
+	| δ(r, b)              | =  | (s, →) | 
+	| δ(r, _)              | =  | (s, →) | 
+	| δ(s, a)              | =  | (q, →) | 
+	| δ(s, b)              | =  | (q, →) | 
+	| δ(s, _)              | =  | (q, →) | 
+
+	There may be other transitions besides these, but these are all you need to know. The symbol _ denotes a blank.
+
+	- a. What is the final tape configuration when this machine is started on the tape > _ aabbabb scanning the blank in the start state?
+	- b. Describe informally what this machine does.
