@@ -54,7 +54,7 @@ K = {p, q}, Σ = {a, b}, Γ = {a, b}, s = p, F = {q}, and ∆ contains the follo
 ### HW8
 1. Consider the Turing machine M = (K, Σ, δ, s, H) where K = {q0, q, r, s, h}, Σ = {_, >, a, b}, s = q<sub>0</sub>, H = {h}, and δ includes the following transitions:
 
-	| δ(q<sub>0</sub>, t)  | =  | (q, →) | 
+	| δ(q<sub>0</sub>, _)  | =  | (q, →) | 
 	|----------------------|----|--------| 
 	| δ(q, a)              | =  | (q, →) | 
 	| δ(q, b)              | =  | (r, ←) | 
@@ -68,5 +68,5 @@ K = {p, q}, Σ = {a, b}, Γ = {a, b}, s = p, F = {q}, and ∆ contains the follo
 
 	There may be other transitions besides these, but these are all you need to know. The symbol _ denotes a blank.
 
-	- a. What is the final tape configuration when this machine is started on the tape > _ aabbabb scanning the blank in the start state?
-	- b. Describe informally what this machine does.
+	- What is the final tape configuration when this machine is started on the tape > _ aabbabb scanning the blank in the start state?
+	- Describe informally what this machine does.
